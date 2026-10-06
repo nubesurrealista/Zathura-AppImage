@@ -12,7 +12,7 @@ export ICON=/usr/share/icons/hicolor/scalable/apps/org.pwmt.zathura.svg
 export DESKTOP=/usr/share/applications/org.pwmt.zathura.desktop
 
 # Deploy dependencies
-quick-sharun /usr/bin/zathura /usr/lib/zathura/*
+quick-sharun /usr/bin/zathura /usr/lib/zathura
 
 # Additional changes can be done in between here
 
