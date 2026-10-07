@@ -6,7 +6,7 @@ ARCH=$(uname -m)
 
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
-pacman -Syu --noconfirm zathura zathura-pdf-mupdf zathura-djvu zathura-cb
+pacman -Syu --noconfirm zathura zathura-pdf-mupdf zathura-djvu zathura-ps zathura-cb
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
