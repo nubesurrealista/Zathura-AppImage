@@ -15,7 +15,7 @@ export DESKTOP=/usr/share/applications/org.pwmt.zathura.desktop
 quick-sharun /usr/bin/zathura /usr/lib/zathura
 
 # Additional changes can be done in between here
-rm -rf ./AppDir/share/tessdat
+rm -rf ./AppDir/share/tessdata
 
 # Turn AppDir into AppImage
 quick-sharun --make-appimage
